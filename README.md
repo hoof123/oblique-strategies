@@ -1,18 +1,19 @@
-# Welcome to React Router!
+# Welcome to Oblique Strategies
 
-A modern, production-ready template for building full-stack React applications using React Router.
+This is a simple React application built using React Router.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
 
-## Features
+## Tech
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- [React](https://react.dev/)
+- [React Router](https://reactrouter.com/)
+- [React Router](https://reactrouter.com/)
+- [Swiper.js](https://swiperjs.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [OXC](https://oxc.rs/)
+- [Vite](https://vite.dev/)
 
 ## Getting Started
 
@@ -32,7 +33,7 @@ Start the development server with HMR:
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Application will be available at `http://localhost:5173`.
 
 ## Building for Production
 
@@ -49,10 +50,10 @@ npm run build
 To build and run using Docker:
 
 ```bash
-docker build -t my-app .
+docker build -t oblique-strategies .
 
 # Run the container
-docker run -p 3000:3000 my-app
+docker run -p 3000:3000 oblique-strategies
 ```
 
 The containerized application can be deployed to any platform that supports Docker, including:
@@ -81,7 +82,3 @@ Make sure to deploy the output of `npm run build`
 ## Styling
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
