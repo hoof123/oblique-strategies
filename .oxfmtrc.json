@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "ignorePatterns": [],
+  "printWidth": 80,
+  "experimentalSortImports": {
+    "newlinesBetween": false,
+    "groups": [
+      ["value-builtin", "value-external"],
+      ["value-internal", "value-parent", "value-sibling", "value-index"],
+      { "newlinesBetween": true },
+      "type-import",
+      "unknown"
+    ]
+  },
+  "experimentalTailwindcss": {
+    "enabled": true,
+    "stylesheet": "./app/app.css"
+  }
+}
