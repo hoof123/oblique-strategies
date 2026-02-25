@@ -38,7 +38,7 @@ function CardSwiper({
 
   return (
     <Swiper
-      className="h-96 w-48 max-w-full sm:w-80 md:h-96 md:w-full md:max-w-xl"
+      className="h-68 w-48 max-w-full sm:w-80 md:h-96 md:w-full md:max-w-xl"
       modules={[EffectCards]}
       effect="cards"
       spaceBetween={0}
