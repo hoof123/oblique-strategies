@@ -18,7 +18,7 @@ export default function LayoutMain({ loaderData }: Route.ComponentProps) {
     <>
       <CardsProvider strategies={obliqueStrategies}>
         <Toolbar />
-        <div className="flex h-screen w-screen items-start justify-center p-8">
+        <div className="flex h-screen w-screen items-start justify-center overflow-clip p-8">
           <Outlet />
         </div>
       </CardsProvider>

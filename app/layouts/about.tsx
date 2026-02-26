@@ -7,7 +7,7 @@ export default function LayoutAbout({}: Route.ComponentProps) {
   return (
     <>
       <Toolbar />
-      <div className="flex min-h-screen w-screen items-start justify-center p-8">
+      <div className="flex min-h-screen w-screen items-start justify-center overflow-clip p-8">
         <Outlet />
       </div>
     </>
